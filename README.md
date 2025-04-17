@@ -1,63 +1,90 @@
 # Student Result Management System
 
-A modern, responsive web application for managing student results with admin and student login functionality.
+A modern, responsive web application for managing student results with admin and student login functionality. Built with Flask and featuring a beautiful, responsive UI with smooth animations.
 
-## Features
+Student Result Management System
 
-- Admin login (username: admin, password: admin)
-- Student login using roll number and date of birth
-- Admin can add new students and upload scores via Excel
-- Students can view their results with a beautiful UI
-- Responsive design for all devices
-- Smooth animations and transitions
-- Real-time updates without page refresh
+## 🚀 Features
 
-## Setup Instructions
+- **Admin Dashboard**
+  - Secure admin login system
+  - Add new students with detailed information
+  - Bulk upload student scores via Excel
+  - View and manage all student records
+  - Real-time data updates
 
-1. Install Python 3.7 or higher
-2. Install the required packages:
+- **Student Portal**
+  - Secure login using roll number and date of birth
+  - View personal academic records
+  - Check result status in real-time
+  - Beautiful, responsive result display
+
+- **Technical Features**
+  - Responsive design for all devices (mobile, tablet, desktop)
+  - Smooth animations and transitions
+  - Real-time updates without page refresh
+  - Secure session management
+  - Excel file integration for bulk operations
+
+## 🛠️ Installation
+
+1. **Prerequisites**
+   - Python 3.7 or higher
+   - pip (Python package manager)
+
+2. **Clone the Repository**
+   ```bash
+   git clone https://github.com/swasthiknrao/students-marks-management.git
+   cd students-marks-management
+   ```
+
+3. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the application:
+
+4. **Run the Application**
    ```bash
    python app.py
    ```
-4. Open your browser and navigate to `http://localhost:5000`
 
-## Usage
+5. **Access the Application**
+   - Open your browser and navigate to `http://localhost:5000`
 
-### Admin Login
-- Username: admin
-- Password: admin
+## 🔑 Login Credentials
 
-### Admin Features
-1. Add new students with their details
-2. Upload student scores using an Excel file
-3. View all students and their scores
+### Admin Access
+- **Username:** admin
+- **Password:** admin
 
-### Student Login
-- Username: Roll Number
-- Password: Date of Birth (YYYY-MM-DD format)
+### Student Access
+- **Username:** Roll Number
+- **Password:** Date of Birth (YYYY-MM-DD format)
 
-### Student Features
-1. View personal details
-2. Check result status
-3. View score if uploaded
+## 📊 Excel File Format for Score Upload
 
-## Excel File Format for Score Upload
 Create an Excel file with the following columns:
-- roll_number
-- score
+- `roll_number` (Student's unique identifier)
+- `score` (Numerical score)
 
-## Security Features
+## 🛡️ Security Features
+
 - Session-based authentication
 - Password protection for admin access
 - Secure student login with roll number and DOB
+- Input validation and sanitization
+- Protected routes and endpoints
 
-## Technologies Used
-- Flask (Python web framework)
-- Pandas (Excel file handling)
-- HTML5 & CSS3
-- Responsive Design
-- Modern UI/UX 
+## 💻 Technologies Used
+
+- **Backend**
+  - Flask (Python web framework)
+  - SQLAlchemy (Database ORM)
+  - Pandas (Excel file handling)
+
+- **Frontend**
+  - HTML5 & CSS3
+  - Modern UI/UX design
+  - Responsive Design
+  - Smooth Animations
+
