@@ -57,7 +57,6 @@ Create an Excel file with the following columns:
 
 ## Technologies Used
 - Flask (Python web framework)
-- SQLAlchemy (Database ORM)
 - Pandas (Excel file handling)
 - HTML5 & CSS3
 - Responsive Design
